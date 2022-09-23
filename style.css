@@ -158,6 +158,7 @@ li{
     padding-right: 10%;
     padding-top: 10%;
     padding-bottom: 5%;
+    height: 1200px;
 }
 
 .item{
@@ -172,4 +173,25 @@ li{
     width: 30%;
     height: 1px;
     background-color: rgb(168, 168, 168);
+}
+
+.blue{
+    color: #0061ff;
+}
+
+/* quarta cards----- */
+
+.container-3{
+    width: 55%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.categories1{
+    text-align: center;
+    border: solid rgb(168, 168, 168);
+    border-width: 1px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
 }
