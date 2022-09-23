@@ -9,8 +9,13 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
         </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+        </style>
+    <script src="https://kit.fontawesome.com/f9decb745b.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- header -->
     <header>
         <div class="navbar flex-row-between">
             <section class="nav-section-size">
@@ -39,28 +44,138 @@
         </div>
     </header>
 
+
+    <!-- prima sezione -->
     <main>
         <div class="sfondo-azur">
-            <div class="titolo">
-                <h1> <strong>Tutto ciò che ti serve per il lavoro, in un unico posto</strong> </h1>
-            <div class="flex-row-between">
-                <div class="flex-column-between">
-                    <p class="width-70">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. <br>
-                    Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente</p> 
-                    <div id="inizia">Inizia la tua prova gratuita</div>
-                    <p>Annulla in qualsiasi momento</p>
+            <div class="container-1">
+                <div class="titolo">
+                    <div class="titolo-style"> <strong>Tutto ciò che ti serve per <br> il lavoro, in un unico posto</strong> </div>
                 </div>
-                <div class="container-pos">
-                    <img src="jumbo.png" alt="" class="img-jumbo">
+                <div class="container-txt-jumbo">
+                    <ul>
+                        <li class="scritta-sinistra-list">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. <br>
+                        Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</li> 
+                        <li id="inizia" class="scritta-sinistra-list">Inizia la tua prova gratuita</li>
+                        <li class="scritta-sinistra-list">Annulla in qualsiasi momento</li>
+                        <li id="arrow" class="scritta-sinistra-list">&#129147;</li>
+                    </ul>
+                    <div class="container-pos">
+                        <div id="imgsas">
+                            <img src="jumbo.png" alt="" class="img-jumbo">
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            </div>
-            
-
         </div>
 
+        <!-- piani tariffari -->
+        <div class="container-2">
+            <h1>Trova il piano business che fa per te</h1>
+            <div class="fatturazioni-txt-cont">
+                <div class="pallini-cont">
+                    <input type="radio" class="pallini-cont">
+                    <span class="fatturazioni-txt">Fatturazione mensile</span>
+                </div>
+                <div class="pallini pallini-cont">
+                    <input type="radio"> 
+                    <span class="fatturazioni-txt">Fatturazione annuale</span>
+                </div>
+            </div>
 
+
+            <!-- -------------cards------------ -->
+
+            <div class="flex-row-between mar-top5">
+                <div class="professional">
+                    <div class="categories">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Singolo</span>
+                    </div>
+
+                    <div class="descriprion">
+                        <ul >
+                            <div class="item"><h2><strong>Professional</strong></h2></div>
+                            <div class="item"><strong>&euro;12.00</strong></div>
+                            <div>/mese</div>
+                        </ul>
+
+                        <ul class="item1">
+                            <div class="item"> <i class="fa-solid fa-user"></i> 1 utente</div>
+                            <div class="item"> <i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</div>
+                            <div class="item"> <i class="fa-sharp fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                        </ul>
+
+                        <div class="item1" id="inizia">
+                            Prova gratis per 30 giorni
+                        </div>
+
+                        <div class="item">
+                            oppure <a href="">acquista ora</a>  
+                        </div>
+
+                        <div class="linea item1"></div>
+
+                        <div>
+                            <ul>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="professional">
+                    <div class="categories">
+                        <div class="txt">
+                            <i class="fa-solid fa-people-group"></i>
+                            <span>Team</span>
+                        </div>
+                    </div>
+    
+                    <div class="descriprion">
+                        <ul>
+                            <div class="item"><h2><strong>Professional</strong></h2></div>
+                            <div class="item"><strong>&euro;12.00</strong></div>
+                            <div>/mese</div>
+
+
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+                <div class="professional">
+                    <div class="categories">
+                        <i class="fa-solid fa-building"></i>
+                        <span>Azienda</span>
+                    </div>
+    
+                    <div>
+                        <ul class="descriprion">
+                            <div class="item"><h2><strong>Professional</strong></h2></div>
+                            <div class="item"><strong>&euro;12.00</strong></div>
+                            <div>/mese</div>
+
+
+                        </ul>
+                    </div>
+
+                    <div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
 
 
     </main>

@@ -47,6 +47,7 @@ li{
     padding-bottom: 5px;
     padding-left: 15px;
     padding-right: 15px;
+    text-align: center;
 }
 
 /* prima sezione/slide */
@@ -55,30 +56,120 @@ li{
     background-color: #b4d0e7;
 }
 
+.container-1{
+    width: 60%;
+    margin: auto;
+}
+
 .titolo{
-    width: 35%;
     margin: auto;
     padding-top: 5%;
+    padding-bottom: 3%;
 }
 
-.width-70{
-    width: 70%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+.titolo-style{
+    font-size: 350%;
+    font-family: 'Open Sans', sans-serif;
 }
-
 
 .centra{
     margin: auto;
 }
 
 .img-jumbo{
-    width: 175%;
+    width: 100%;
 }
 
-.flex-column-between{
+.scritta-sinistra{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding-bottom: 5%;   
+    justify-content: space-around;  
+    width: 40%;
+}
+
+.container-txt-jumbo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+#arrow{
+    width: 100px;
+
+}
+
+.scritta-sinistra-list{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+
+
+/* piani tariffari */
+
+.container-2{
+    width: 55%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.fatturazioni-txt{
+    padding-left: 5%;
+}
+
+.fatturazioni-txt-cont{
+    padding-top: 5%;
+}
+
+.pallini-cont{
+    display: inline;
+}
+
+.pallini{
+    margin-left: 10%;
+}
+
+/* card */
+
+.mar-top5{
+    margin-top: 10%;
+}
+
+.professional{
+    width: 30%;
+}
+
+
+.categories{
+    text-align: center;
+    border: solid rgb(168, 168, 168);
+    border-width: 1px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+.descriprion{
+    border: solid rgb(168, 168, 168);
+    border-width: 1px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.item{
+    margin-top: 10%;
+}
+
+.item1{
+    margin-top: 30%;
+}
+
+.linea{
+    width: 30%;
+    height: 1px;
+    background-color: rgb(168, 168, 168);
 }
