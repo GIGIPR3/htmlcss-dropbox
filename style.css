@@ -48,6 +48,7 @@ li{
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
+    cursor: pointer;
 }
 
 /* prima sezione/slide */
@@ -225,6 +226,7 @@ li{
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
+    cursor: pointer;
 }
 
 .item2{
@@ -262,6 +264,7 @@ li{
     padding-right: 6%;
     border: solid rgb(0, 0, 0);
     border-width: 1px;
+    cursor: pointer;
 }
 
 /* DROPBOX BUSINESS */
@@ -276,4 +279,24 @@ li{
 
 .prima-riga{
     width: 100%;
+}
+
+.size-55-1{
+    width: 55%;
+    margin: auto;
+    padding-top: 15%;
+}
+
+.quadrati{
+    display: flex;
+    flex-direction: column;
+}
+
+.size16{
+    width: 16%;
+}
+
+.img-size-uni{
+    width: 16%;
+    height: 50%;
 }
