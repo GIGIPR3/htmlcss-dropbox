@@ -20,6 +20,9 @@ header{
     padding:1%;
 }
 
+.logo:hover{
+    cursor: pointer;
+}
 
 .logo{
     padding-right: 10px;
@@ -32,6 +35,11 @@ ul{
 li{
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.sottolineatura:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .flex-row-between{
@@ -49,6 +57,10 @@ li{
     padding-right: 15px;
     text-align: center;
     cursor: pointer;
+}
+
+#inizia:hover{
+    background-color: #3280ff;
 }
 
 /* prima sezione/slide */
@@ -229,6 +241,10 @@ li{
     cursor: pointer;
 }
 
+.button-blue:hover{
+    background-color: #3280ff;
+}
+
 .item2{
     padding-top: 5%;
 }  
@@ -267,36 +283,42 @@ li{
     cursor: pointer;
 }
 
+
+.white-button:hover{
+    background-color: #f0f0f0;
+}
 /* DROPBOX BUSINESS */
 
-.size-60{
-    width: 60%;
+
+
+
+
+/* fascia blu---------- */
+
+.titolo-rosso{
+    color: #61082b;
+    width: 40%;
 }
 
-.size30{
+.poor-whitebutton{
+    display: inline-block;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    cursor: pointer;
+}
+
+.poor-whitebutton:hover{
+    background-color: #f0f0f0;
+}
+
+.size-30{
     width: 30%;
 }
 
-.prima-riga{
-    width: 100%;
-}
-
-.size-55-1{
-    width: 55%;
-    margin: auto;
-    padding-top: 15%;
-}
-
-.quadrati{
-    display: flex;
-    flex-direction: column;
-}
-
-.size16{
-    width: 16%;
-}
-
-.img-size-uni{
-    width: 16%;
-    height: 50%;
+.padding-bottom{
+    padding-bottom: 5%;
 }
