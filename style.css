@@ -1,4 +1,4 @@
-*{
+ *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -337,4 +337,31 @@ li{
 
 .angle{
     padding-right: 5%;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+}
+
+.width-60{
+    width: 60%;
+    margin: auto;
+}
+
+.space-footer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.separazione-footer{
+    margin-top: 5%;
+}
+
+.footer-item{
+    padding-top: 20%;
+}
+
+.footer-item1{
+    padding-top: 5%;
 }
