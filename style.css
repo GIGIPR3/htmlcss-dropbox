@@ -365,3 +365,30 @@ footer{
 .footer-item1{
     padding-top: 5%;
 }
+
+/* SPONSOR------------- */
+
+.sponsor{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    display: flex;
+}
+
+.col{
+    width: calc(100vw/3);
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsorbox{
+    width: 50%;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.col-centrale{
+    width: calc(100vw/3);
+    height: calc(100/3);
+}
